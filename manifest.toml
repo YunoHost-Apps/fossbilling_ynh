@@ -2,9 +2,8 @@ packaging_format = 2
 
 id = "fossbilling"
 name = "fossbilling"
-description.en = "Empower your hosting business with FOSSBilling,
-the free and open-source solution for efficient billing and client management."
-description.fr = "Renforcez votre activité d'hébergement avec FOSSBilling, la solution gratuite et open source pour une facturation et une gestion client efficaces"
+description.en = "Solution for efficient billing and client management"
+description.fr = "Facturation et gestion client efficaces"
 
 version = "0.7.2~ynh1"
 
@@ -25,7 +24,6 @@ yunohost = ">= 12.1.38"
 helpers_version = "2.1"
 architectures = "all"
 multi_instance = true
-
 
 ldap = false
 sso = false
@@ -78,10 +76,8 @@ ram.runtime = "50M"
     main.url = "/"
 
     [resources.apt]
-    # This will automatically install/uninstall the following apt packages
-    # and implicitly define the $phpversion setting as 8.0 (if phpX.Y-foobar dependencies are listed)
-    packages = "mariadb-server, php8.4-intl, php8.4-openssl, php8.4-pdo,_php8.4-mysql, php8.4-xml, php8.4-dom, php8.4-iconv, php8.4-json, php8.4-zlib, php8.4-curl"
+
+    packages = "mariadb-server, php8.4-intl, php8.4-openssl, php8.4-pdo, php8.4-mysql, php8.4-xml, php8.4-dom, php8.4-iconv, php8.4-json, php8.4-zlib, php8.4-curl"
 
     [resources.database]
-    # This will automatically provision/deprovison a MySQL DB and store the corresponding credentials in settings $db_user, $db_name, $db_pwd
     type = "mysql"
