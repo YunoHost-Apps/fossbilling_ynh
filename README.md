@@ -4,8 +4,8 @@ It shall NOT be edited by hand.
 -->
 
 <h1>
-  <img src="https://raw.githubusercontent.com/YunoHost/apps/main/logos/fossbilling.png" width="32px" alt="Logo of fossbilling">
-  fossbilling, packaged for YunoHost
+  <img src="https://raw.githubusercontent.com/YunoHost/apps/main/logos/fossbilling.png" width="32px" alt="Logo of FossBilling">
+  FossBilling, packaged for YunoHost
 </h1>
 
 Solution for efficient billing and client management
@@ -21,13 +21,13 @@ Solution for efficient billing and client management
 
 
 ## Screenshots
-![Screenshot of fossbilling](./doc/screenshots/example.jpg)
+![Screenshot of FossBilling](./doc/screenshots/example.jpg)
 
 ## 📦 Developer info
 
 [![Automatic tests level](https://apps.yunohost.org/badge/cilevel/fossbilling)](https://ci-apps.yunohost.org/ci/apps/fossbilling/)
 
-🛠️ Upstream fossbilling repository: <https://github.com/FOSSBilling/FOSSBilling>
+🛠️ Upstream FossBilling repository: <https://github.com/FOSSBilling/FOSSBilling>
 
 Pull request are welcome and should target the [`testing` branch](https://github.com/YunoHost-Apps/fossbilling_ynh/tree/testing).
 
