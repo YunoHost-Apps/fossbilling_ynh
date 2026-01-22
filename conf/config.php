@@ -56,7 +56,7 @@ return [
     /*
      * Full URL where FOSSBilling is installed with trailing slash.
      */
-    'url' => 'localhost/',
+    'url' => '__DOMAIN___/',
 
     /*
      * The URL prefix to access the BB admin area. Ex: '/admin' for https://example.com/admin.
