@@ -47,6 +47,7 @@ ram.runtime = "50M"
     [resources.sources.main]
     url = "https://github.com/FOSSBilling/FOSSBilling/releases/download/0.7.2/FOSSBilling.zip"
     sha256 = "801a6ae42cb31a2f80fc98a908ba36e74b9758ef692c5ebfd300f5ca46189348"
+    in_subdir = false
 
     autoupdate.strategy = "latest_github_release"
     autoupdate.asset="FOSSBilling.zip"
