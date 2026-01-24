@@ -1,1 +1,1 @@
-This is a dummy description of this app features
+FOSSBilling provides tools for hosting businesses to manage clients, automate billing, and provision services.

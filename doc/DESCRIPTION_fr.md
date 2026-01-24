@@ -1,1 +1,1 @@
-Ceci est une fausse description des fonctionalités de l'app
+FOSSBilling offre des outils permettant aux entreprises d'hébergement de gérer les clients, d'automatiser la facturation et de offrir des services.
