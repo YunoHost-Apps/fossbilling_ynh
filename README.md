@@ -21,7 +21,7 @@ Solution for efficient billing and client management
 
 
 ## Screenshots
-![Screenshot of FossBilling](./doc/screenshots/example.jpg)
+![Screenshot of FossBilling](./doc/screenshots/fossbilling.jpg)
 
 ## 📦 Developer info
 
