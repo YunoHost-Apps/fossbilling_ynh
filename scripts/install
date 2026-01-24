@@ -10,6 +10,14 @@ ynh_script_progression "Setting up source files..."
 ynh_setup_source --dest_dir="$install_dir"
 
 #=================================================
+# INITIALIZE DATABASE
+#=================================================
+ynh_script_progression "Initializing database..."
+
+ynh_mysql_db_shell < "$install_dir/install/sql/structure.sql"
+ynh_mysql_db_shell < "$install_dir/install/sql/content.sql"
+
+#=================================================
 # APP INITIAL CONFIGURATION
 #=================================================
 ynh_script_progression "Adding $app's configuration files..."
