@@ -2,8 +2,8 @@ packaging_format = 2
 
 id = "fossbilling"
 name = "FossBilling"
-description.en = "Solution for efficient billing and client management"
-description.fr = "Facturation et gestion client efficaces"
+description.en = "Solution for efficient billing and client management for hosting providers"
+description.fr = "Facturation et gestion client efficaces pour les hébergeurs"
 
 version = "0.7.2~ynh2"
 
