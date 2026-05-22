@@ -5,7 +5,7 @@ name = "FossBilling"
 description.en = "Solution for efficient billing and client management for hosting providers"
 description.fr = "Facturation et gestion client efficaces pour les hébergeurs"
 
-version = "0.7.2~ynh2"
+version = "0.7.2~ynh3"
 
 maintainers = ["CodeShakingSheep"]
 
