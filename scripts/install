@@ -25,6 +25,8 @@ ynh_script_progression "Initializing database..."
 ynh_mysql_db_shell < "$install_dir/install/sql/structure.sql"
 ynh_mysql_db_shell < "$install_dir/install/sql/content.sql"
 
+ynh_safe_rm "$install_dir/install"
+
 #=================================================
 # SYSTEM CONFIGURATION
 #=================================================
