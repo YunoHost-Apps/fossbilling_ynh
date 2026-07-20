@@ -5,7 +5,7 @@ name = "FossBilling"
 description.en = "Solution for efficient billing and client management for hosting providers"
 description.fr = "Facturation et gestion client efficaces pour les hébergeurs"
 
-version = "0.7.2~ynh3"
+version = "0.8.5~ynh1"
 
 maintainers = ["CodeShakingSheep"]
 
@@ -45,8 +45,8 @@ ram.runtime = "50M"
     [resources.sources]
 
     [resources.sources.main]
-    url = "https://github.com/FOSSBilling/FOSSBilling/releases/download/0.7.2/FOSSBilling.zip"
-    sha256 = "801a6ae42cb31a2f80fc98a908ba36e74b9758ef692c5ebfd300f5ca46189348"
+    url = "https://github.com/FOSSBilling/FOSSBilling/releases/download/0.8.5/FOSSBilling-0.8.5.zip"
+    sha256 = "a5c4d374b62efedc7071e398a21ea55d32424433562c0b03e48b5f09737d4e56"
     in_subdir = false
 
     autoupdate.strategy = "latest_github_release"
