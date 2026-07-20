@@ -34,6 +34,9 @@ ynh_config_add_phpfpm
 
 ynh_config_add_nginx
 
+# Disable maintenance mode (as DB migrations have already been applied)
+ynh_replace --match="'maintenance_mode' => [ 'enabled' => true," --replace="'maintenance_mode' => [ 'enabled' => false," --file="../hooks/post_user_create"
+
 #=================================================
 # ADD CRON JOB
 #=================================================
