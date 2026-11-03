@@ -2,6 +2,6 @@
 
 source /usr/share/yunohost/helpers
 
-app=$1
+app=$YNH_APP_INSTANCE_NAME
 install_dir=$(ynh_app_setting_get --app=$app --key=install_dir)
 ynh_config_add --template="config.php" --destination="$install_dir/config.php"
